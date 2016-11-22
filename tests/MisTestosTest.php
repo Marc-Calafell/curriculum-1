@@ -8,13 +8,12 @@
  */
 
 
-class MisTestos
-{
+class MisTestosTest extends PHPUnit_Framework_TestCase  {
 
     /**
      * prova
      */
-    public function prova() {
+    public function provaTest() {
         echo "asd";
     }
 
