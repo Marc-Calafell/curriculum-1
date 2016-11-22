@@ -65,4 +65,12 @@ class CurriculumServiceProvider extends ServiceProvider
             SCOOL_CURRICULUM_PATH . '/config/curriculum.php', 'scool_curriculum'
         );
     }
+
+    public function publishesTest()
+    {
+        $this->publishes([
+           SCOOL_CURRICULUM_PATH . '/tests/CurriculumTest.php','tests/CurriculumTest.php'
+        ]);
+
+    }
 }
