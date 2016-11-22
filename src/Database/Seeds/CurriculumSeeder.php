@@ -8,7 +8,7 @@ use Scool\Curriculum\Models\Speciality;
 use Scool\Curriculum\Models\Submodule;
 use Scool\Curriculum\Models\Module;
 use Scool\Curriculum\Models\Course;
-use Acacha\Periods\Period;
+use marccalafell\Periods\Period;
 
 /**
  * Class CurriculumSeeder.
