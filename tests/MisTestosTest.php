@@ -12,9 +12,13 @@ class MisTestosTest extends PHPUnit_Framework_TestCase  {
 
     /**
      * prova
+     * @test
      */
-    public function provaTest() {
-        echo "asd";
+    public function it_Shows_Submodules() {
+       // echo "asd";
+      $this->assertTrue(true);
     }
+
+
 
 }
